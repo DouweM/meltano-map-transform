@@ -18,7 +18,8 @@ documentation = "https://github.com/MeltanoLabs/meltano-map-transform#readme"
 
 [tool.poetry.dependencies]
 python = "<3.12,>=3.7.1"
-singer-sdk = "0.23.0"
+# singer-sdk = "0.23.0"
+singer-sdk = {git = "https://github.com/DouweM/meltano-sdk.git", rev = "openai"}
 
 [tool.poetry.dev-dependencies]
 mypy = ">=0.930"
