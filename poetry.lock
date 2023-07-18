@@ -1418,7 +1418,7 @@ testing = ["pytest (>=7.2.1,<8.0.0)", "pytest-durations (>=1.2.0,<2.0.0)"]
 type = "git"
 url = "https://github.com/DouweM/meltano-sdk.git"
 reference = "openai"
-resolved_reference = "272a8886186a68a7ef99c606159e2bff5e0ed5cf"
+resolved_reference = "995b8d1f1fce4e3d78809fb2c8a3a1c347f8a801"
 
 [[package]]
 name = "six"
